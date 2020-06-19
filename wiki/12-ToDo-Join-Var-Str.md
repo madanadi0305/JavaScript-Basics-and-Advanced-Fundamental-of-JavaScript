@@ -5,7 +5,7 @@ When code is executing, a variable will be replaced by its value. Therefore, you
 
 Steps:
 
-- Open `practice01.js` and comment previous codes.
+- Open `practice04.js` and comment previous codes.
 - Copy the below codes in that file.
 
 ```js
