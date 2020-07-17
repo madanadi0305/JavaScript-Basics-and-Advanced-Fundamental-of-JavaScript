@@ -2,7 +2,7 @@
 ## Task15
 ### write a JS program to compute the sum of the two given integers. 
 
-If the two integers are the same, then the program returns triple their sum. Your output code should return the resulting variable.
+If the two integers are the same, then the program should returns triple their sum otherwise should simply return their sum. Your output code should return the resulting variable.
 
 Take input variables (number1, number2) as a parameter of your function.
 
