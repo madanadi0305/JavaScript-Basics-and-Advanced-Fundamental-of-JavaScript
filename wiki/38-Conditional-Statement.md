@@ -87,3 +87,31 @@ if (score > 80) {
 //output
 Print Need some improvement
 ```
+### Writing conditional statements using ternary operator
+
+The **conditional (ternary) operator** is the only JavaScript operator that takes three operands: a condition followed by a question mark (`?`), then an expression to execute if the condition `satisfies` followed by a colon (`:`), and finally the expression to execute if the condition `doesn't satisfy`. This operator is frequently used as a shortcut for the if statement.
+
+```js
+var score = 50; // declaring and intializing a variable score
+
+// if condition to check the value of score
+(score >= 60) ? console.log("Print", "Score is good") : console.log("Print", "Score is bad"); // Since condition doesn't gets satisfied, so expression from right side of : will execute
+
+```
+
+```js
+//Output
+Print Score is bad
+```
+```js
+var score = 80; // declaring and intializing a variable score
+
+// if condition to check the value of score
+const status = (score >= 60) ? "Score is good" : "Score is bad"; // Since condition gets satisfied, so data from left side of : will be store inside status
+console.log(status)
+```
+
+```js
+//Output
+Score is good
+```
