@@ -178,6 +178,8 @@ Practice08:
       - 8-task08-program-to-calculate-sum-of-200-and-300
 
 Test09:
+  tags:
+    - fojs
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
