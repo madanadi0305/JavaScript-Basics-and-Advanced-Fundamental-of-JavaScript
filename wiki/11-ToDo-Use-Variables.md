@@ -4,7 +4,7 @@ To print the value of a variable in output, just write the name of the variable 
 
 Steps:
 
-- Open `practice01.js` and comment previous codes.
+- Open `practice04.js` and comment previous codes.
 - Copy the below codes in that file.
 
 ```js
