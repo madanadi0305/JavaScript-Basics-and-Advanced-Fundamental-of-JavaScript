@@ -1,8 +1,8 @@
 # Fundamentals-of-JS
 ## Task24
-### write a JS program which requires directions.
+### write a JS program which returns direction on the basis of input number using switch case.
 
- Using switch case, the program prints "East" for 1 , "West" for 2, "North" for 3 and "South" for 4. In the default case, the output should return "Wrong Input" . In the other 4 cases, the output code should return the resulting variable.
+Declare one result variable. Using switch case, the program prints "East" for 1 , "West" for 2, "North" for 3, "South" for 4 and store the same in result variable. In the default case, it should print "Wrong Input" and store the same in result variable. The output code should return the resulting variable.
 
 Take input variables (choice) as the parameter of your function.
 
