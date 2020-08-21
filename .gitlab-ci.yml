@@ -1,8 +1,8 @@
 image: node:latest
 
 cache:
-   paths:
-       - node_modules/
+  paths:
+    - node_modules/
 
 Test:
   tags:
@@ -25,10 +25,10 @@ Test01:
   only:
     refs:
       - 1-task01-program-to-print-hello-world
-            
+
 Practice01:
   tags:
-    - fojs
+    - practice
   script:
     - node practice01
   only:
@@ -43,15 +43,15 @@ Test02:
   only:
     refs:
       - 2-task02-program-to-print-100
-            
+
 Practice02:
   tags:
-    - fojs
+    - practice
   script:
     - node practice02
   only:
-      refs:
-        - 2-task02-program-to-print-100
+    refs:
+      - 2-task02-program-to-print-100
 
 Test03:
   tags:
@@ -61,10 +61,10 @@ Test03:
   only:
     refs:
       - 3-task03-program-to-print-100
-            
+
 Practice03:
   tags:
-    - fojs
+    - practice
   script:
     - node practice03
   only:
@@ -79,16 +79,16 @@ Test04:
   only:
     refs:
       - 4-task04-program-to-store-i-am-a-in-a-variable-and-programmer-in-another-variable
-            
+
 Practice04:
   tags:
-    - fojs
+    - practice
   script:
     - node practice04
   only:
     refs:
       - 4-task04-program-to-store-i-am-a-in-a-variable-and-programmer-in-another-variable
-        
+
 Test05:
   tags:
     - fojs
@@ -104,7 +104,7 @@ Test05:
 
 Practice05:
   tags:
-    - fojs
+    - practice
   script:
     - node practice05
   only:
@@ -126,7 +126,7 @@ Test06:
 
 Practice06:
   tags:
-    - fojs
+    - practice
   script:
     - node practice06
   only:
@@ -148,7 +148,7 @@ Test07:
 
 Practice07:
   tags:
-    - fojs
+    - practice
   script:
     - node practice07
   only:
@@ -170,7 +170,7 @@ Test08:
 
 Practice08:
   tags:
-    - fojs
+    - practice
   script:
     - node practice08
   only:
@@ -192,7 +192,7 @@ Test09:
 
 Practice09:
   tags:
-    - fojs
+    - practice
   script:
     - node practice09.js
   only:
@@ -214,7 +214,7 @@ Test10:
 
 Practice10:
   tags:
-    - fojs
+    - practice
   script:
     - node practice10.js
   only:
@@ -236,7 +236,7 @@ Test11:
 
 Practice11:
   tags:
-    - fojs
+    - practice
   script:
     - node practice11.js
   only:
@@ -258,7 +258,7 @@ Test12:
 
 Practice12:
   tags:
-    - fojs
+    - practice
   script:
     - node practice12.js
   only:
@@ -280,13 +280,13 @@ Test13:
 
 Practice13:
   tags:
-    - fojs
+    - practice
   script:
     - node practice13.js
   only:
     refs:
       - 13-task13-program-to-calculate-leap-year
-      
+
 Test14:
   tags:
     - fojs
@@ -302,13 +302,13 @@ Test14:
 
 Practice14:
   tags:
-    - fojs
+    - practice
   script:
     - node practice14.js
   only:
     refs:
       - 14-task14-program-to-calculate-number-is-greater-than-or-less-than
-      
+
 Test15:
   tags:
     - fojs
@@ -324,13 +324,13 @@ Test15:
 
 Practice15:
   tags:
-    - fojs
+    - practice
   script:
     - node practice15.js
   only:
     refs:
       - 15-task15-program-to-compute-the-sum-of-the-two-given-integers
-      
+
 Test16:
   tags:
     - fojs
@@ -346,13 +346,13 @@ Test16:
 
 Practice16:
   tags:
-    - fojs
+    - practice
   script:
     - node practice16.js
   only:
     refs:
       - 16-task16-program-to-check-the-two-given-numbers
-      
+
 Test17:
   tags:
     - fojs
@@ -368,13 +368,13 @@ Test17:
 
 Practice17:
   tags:
-    - fojs
+    - practice
   script:
     - node practice17.js
   only:
     refs:
       - 17-task17-program-to-check-given-number-lies-in-the-range
-      
+
 Test18:
   tags:
     - fojs
@@ -390,13 +390,13 @@ Test18:
 
 Practice18:
   tags:
-    - fojs
+    - practice
   script:
     - node practice18.js
   only:
     refs:
       - 18-task18-program-to-check-two-given-integers
-      
+
 Test19:
   tags:
     - fojs
@@ -412,13 +412,13 @@ Test19:
 
 Practice19:
   tags:
-    - fojs
+    - practice
   script:
     - node practice19.js
   only:
     refs:
       - 19-task19-program-returns-true-if-a-given-positive-number-is-a-multiple-of-3-or-a-multiple-of-7
-      
+
 Test20:
   tags:
     - fojs
@@ -434,13 +434,13 @@ Test20:
 
 Practice20:
   tags:
-    - fojs
+    - practice
   script:
     - node practice20.js
   only:
     refs:
       - 20-task20-program-to-check-if-three-given-integer-values-are-in-the-range
-      
+
 Test21:
   tags:
     - fojs
@@ -456,13 +456,13 @@ Test21:
 
 Practice21:
   tags:
-    - fojs
+    - practice
   script:
     - node practice21.js
   only:
     refs:
       - 21-task21-program-to-find-the-largest-of-three-given-integers
-      
+
 Test22:
   tags:
     - fojs
@@ -478,7 +478,7 @@ Test22:
 
 Practice22:
   tags:
-    - fojs
+    - practice
   script:
     - node practice22.js
   only:
@@ -500,13 +500,13 @@ Test23:
 
 Practice23:
   tags:
-    - fojs
+    - practice
   script:
     - node practice23.js
   only:
     refs:
       - 23-task23-program-to-compute-the-sum-of-the-two-integers
-      
+
 Test24:
   tags:
     - fojs
@@ -522,13 +522,13 @@ Test24:
 
 Practice24:
   tags:
-    - fojs
+    - practice
   script:
     - node practice24.js
   only:
     refs:
       - 24-task24-program-which-requires-directions
-      
+
 Test25:
   tags:
     - fojs
@@ -544,13 +544,13 @@ Test25:
 
 Practice25:
   tags:
-    - fojs
+    - practice
   script:
     - node practice25.js
   only:
     refs:
       - 25-task25-program-to-create-a-basic-calculator-using-a-switch-and-break-statements
-      
+
 Test26:
   tags:
     - fojs
@@ -566,13 +566,13 @@ Test26:
 
 Practice26:
   tags:
-    - fojs
+    - practice
   script:
     - node practice26.js
   only:
     refs:
       - 26-task26-function-takes-2-integers-and-returns-true-if-either-one-of-the-integers-is-8-or-their
-      
+
 Test27:
   tags:
     - fojs
@@ -588,13 +588,13 @@ Test27:
 
 Practice27:
   tags:
-    - fojs
+    - practice
   script:
     - node practice27.js
   only:
     refs:
       - 27-task27-program-check-if-the-three-numbers-are-the-same
-      
+
 Test28:
   tags:
     - fojs
@@ -610,7 +610,7 @@ Test28:
 
 Practice28:
   tags:
-    - fojs
+    - practice
   script:
     - node practice28.js
   only:
