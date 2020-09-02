@@ -12,4 +12,4 @@ else{
 var output=result;
 return output;
 }
-module.export=task14;
+module.exports=task14;
