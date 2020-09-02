@@ -2,7 +2,14 @@
 ## Task14
 ### write a JS program which calculates if the number is greater than 13 or less than 13.
 
- If the number is greater, the program finds the difference between the input number and 13 and multiply it by 2 and returns the result. If the number is less than 13, the program calculate the difference between 13 and input number and returns the value as result. Your output code should return the resulting variable.
+ If the number is greater,
+  the program finds the difference between
+   the input number and 13 and multiply it by 2 and
+returns the result.
+     If the number is less than 13, 
+     the program calculate the difference between 13 and input number
+      and returns the value as result.
+       Your output code should return the resulting variable.
 
 Take input variables (number) as parameter of your function.
 
