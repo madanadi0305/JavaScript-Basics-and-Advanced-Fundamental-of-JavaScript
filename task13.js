@@ -13,7 +13,7 @@ else{
   yes_or_no=0;
    // console.log(yes_or_no);
     
-    return yes_or_no;
+    //return yes_or_no;
 }
 return yes_or_no;
 }
