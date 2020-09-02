@@ -6,6 +6,6 @@ function task09(){
     var subject5=10;
     var sum=subject1+subject2+subject3+subject4+subject5;
     var percent=(sum/500)*100;
-    
+    return percent;
 }
 module.exports=task09;
