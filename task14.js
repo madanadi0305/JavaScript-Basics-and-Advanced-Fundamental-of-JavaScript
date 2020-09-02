@@ -9,6 +9,7 @@ else{
     difference=number-13;
     result=difference*2;
 }
-return result;
+var output=result;
+return output;
 }
 module.export=task14;
