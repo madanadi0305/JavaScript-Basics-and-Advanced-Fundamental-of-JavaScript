@@ -1,6 +1,6 @@
 function task25(num1,num2,choice){
     var output=null;
-    switch(ch){
+    switch(choice){
       case 1:
       output=num1+num2;
       break;
