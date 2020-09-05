@@ -1,22 +1,23 @@
-function task22(num1,num2,num3){
+function task22(number1,number2,number3){
     var check_equality=false;
-    var check_positive_or_negative=false;
-if(num1>0 && num2>0 && num3>0){
-    check_positive_or_negative=true;
-    last_digit1=num1%10;
-    last_digit2=num2%10;
-    last_digit3=num3%10;
-    if(last_digit1===last_digit2===last_digit3){
-      check_equality=true;
+    var check_sign=false;
+    var check_equality_final=false;
+    if((number1>0) && (number2>0) && (number3>0)){
+        check_sign=true;
+     if((num1%10)===(num2%10)===(num3%10) ){
+       check_equality=true;
+     }
+     else{
+         check_equality=false;
+     }
+     check_equality_final=check_equality;
     }
     else{
-        check_equality=false;
+    check_sign=false;
     }
-}
-else{
-    check_positive_or_negative=false;
-}
-return {check_equality,
-check_positive_or_negative};
+    return{
+        check_sign,
+        check_equality_final
+    };
 }
 module.exports=task22;
