@@ -12,5 +12,5 @@ function task26(num1,num2){
     }
     return result;
 }
-var output=task26(3,5);
+//var output=task26(3,5);
 module.exports=task26;
