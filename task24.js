@@ -1,5 +1,5 @@
 function task24(){
-    var direction=null;
+    var direction="Wrong Input";
     var direction_integer=1;
     switch(direction_integer){
       case 1:
