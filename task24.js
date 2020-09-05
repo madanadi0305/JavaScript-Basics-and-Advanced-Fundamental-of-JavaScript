@@ -3,19 +3,18 @@ function task24(){
     var direction_integer=null;
     switch(direction_integer){
       case 1:
-      direction='East';
+      direction="East";
       break;
       case 2:
-      direction='West';
+      direction="West";
       break;
       case 3:
-      direction='North';
-      break;
+      direction="North";
       case 4:
-      direction='South';
+      direction="South";
       break;
       default:
-      direction='invalid';
+      direction="Wrong Input";
     }
     return direction;
 }
