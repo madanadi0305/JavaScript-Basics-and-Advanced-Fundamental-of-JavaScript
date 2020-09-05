@@ -16,7 +16,7 @@ if(num1>0 && num2>0 && num3>0){
 else{
     check_positive_or_negative=false;
 }
-return check_equality;
-return check_positive_or_negative;
+return {check_equality,
+check_positive_or_negative}
 }
 module.exports=task22;
