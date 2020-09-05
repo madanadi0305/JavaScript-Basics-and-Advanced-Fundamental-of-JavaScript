@@ -11,4 +11,5 @@ function task26(num1,num2){
         result=false;
     }
 }
+var output=task26(3,5);
 module.exports=task26;
