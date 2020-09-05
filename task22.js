@@ -4,7 +4,7 @@ function task22(number1,number2,number3){
     var check_equality_final=false;
     if((number1>0) && (number2>0) && (number3>0)){
         check_sign=true;
-     if((num1%10)===(num2%10)===(num3%10) ){
+     if((number1%10)===(number2%10)===(number3%10) ){
        check_equality=true;
      }
      else{
