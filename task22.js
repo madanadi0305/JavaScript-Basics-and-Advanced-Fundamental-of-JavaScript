@@ -15,9 +15,6 @@ function task22(number1,number2,number3){
     else{
     check_sign=false;
     }
-    return{
-        check_sign,
-        check_equality_final
-    };
+    return check_equality_final;
 }
 module.exports=task22;
