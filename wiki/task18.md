@@ -2,7 +2,8 @@
 ## Task18
 ### write a JS program to check two given integers.
 
- The program returns true if one is positive and other is negative, and false otherwise. Your output code should return the resulting variable.
+ The program returns true if one is positive and other is negative, and false otherwise. 
+ Your output code should return the resulting variable.
 
 Take input variables (number1, number2) as a parameter of your function.
 
