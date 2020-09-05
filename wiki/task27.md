@@ -2,7 +2,9 @@
 ## Task27
 ### write a js program to create a function.
 
- The function checks three given numbers, if the three numbers are the same return 30 and if any two numbers are the same return 20 and otherwise return 40. Your output code should return the resulting variable.
+ The function checks three given numbers, if the three numbers are the same return 30 and 
+ if any two numbers are the same return 20 and otherwise return 40.
+  Your output code should return the resulting variable.
 
 Take input variables (number1, number2, number3) as a parameter of your function.
 
