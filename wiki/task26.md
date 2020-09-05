@@ -2,7 +2,8 @@
 ## Task 26
 ### write a js program to create a function.
 
-The function takes 2 integers and returns true if either one of the integers is 8 or their sum is 8 and returns false otherwise. Your output code should return the resulting variable.
+The function takes 2 integers and returns true if either one of the integers is 8 or their sum is 8 
+and returns false otherwise. Your output code should return the resulting variable.
 
 Take input variables (number1, number2) as a parameter of your function.
 
