@@ -1,6 +1,6 @@
 function task24(){
     var direction=null;
-    var direction_integer=null;
+    var direction_integer=1;
     switch(direction_integer){
       case 1:
       direction="East";
