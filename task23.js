@@ -7,6 +7,6 @@ function task23(num1,num2){
     else{
         default_val=80;
     }
-    return defaut_val;
+    return default_val;
 }
 module.exports=task23;
