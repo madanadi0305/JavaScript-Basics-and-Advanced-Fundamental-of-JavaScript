@@ -17,6 +17,6 @@ else{
     check_positive_or_negative=false;
 }
 return {check_equality,
-check_positive_or_negative}
+check_positive_or_negative};
 }
 module.exports=task22;
